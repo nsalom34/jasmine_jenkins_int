@@ -21,7 +21,7 @@ describe('Write Your Test Group Descriptions Here', () => {
         const result = getOpposite(bool);
 
         // assert
-        expect(result).toBe(true);
+        expect(result).toBe(false);
     })
 });
 describe('Write Your Test Group Descriptions Here2', () => {
