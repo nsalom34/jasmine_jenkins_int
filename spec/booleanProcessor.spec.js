@@ -11,7 +11,7 @@ describe('Tests the getOpposite function', () => {
 
         // assert
         expect(result).toBe(false);
-    })
+    });
 
     it('Gets in false, returns true', () => {
         // arrange
@@ -22,7 +22,7 @@ describe('Tests the getOpposite function', () => {
 
         // assert
         expect(result).toBe(true);
-    })
+    });
 });
 
 describe('Tests the isTrue function', () => {
@@ -31,6 +31,7 @@ describe('Tests the isTrue function', () => {
         const result = bp.isTrue(bool);
         expect(result).toBe(true);
     });
+
     it('Gets in false, returns false', () => {
         let bool = false;
         const result = bp.isTrue(bool);
@@ -44,6 +45,7 @@ describe('Tests the isFalse function', () => {
         const result = bp.isFalse(bool);
         expect(result).toBe(false);
     });
+    
     it('Gets in false, returns true', () => {
         let bool = false;
         const result = bp.isFalse(bool);
