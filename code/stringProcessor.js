@@ -3,6 +3,6 @@ module.exports = {
         return string.charAt(0); 
     },
     stringLength: function(string){
-        return string.length;
+        return string.length - 1;
     }
 };
